@@ -95,7 +95,14 @@
     align-content: center;
     color: #8c9eff;
     border-top: double;
-    background-color: burlywood;
+    background: rgb(249, 248, 243);
+    background: radial-gradient(circle, rgba(249, 248, 243, 1) 0%, rgba(240, 193, 123, 1) 100%);
+}
+
+/* ENCABEZADO */
+header {
+    background: rgb(240, 193, 123);
+    background: radial-gradient(circle, rgba(240, 193, 123, 1) 0%, rgba(249, 248, 243, 1) 100%);
 }
 
 /* LOGO */
