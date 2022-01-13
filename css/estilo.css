@@ -112,6 +112,7 @@ header {
     height: auto;
     margin: 10px;
     margin-left: 50px;
+    transform: rotate(45deg) rotateY(45deg);
 }
 
 /* MENU - NAV */
@@ -137,8 +138,9 @@ header {
 }
 
 /* MAYUSCULAS EN MENU  */
-.nav__links--activo {
+.nav__links--activo:hover {
     text-transform: uppercase;
+
 }
 
 /* TITULO SECCIÓN */
@@ -197,6 +199,13 @@ header {
     background-color: #8c9eff;
     color: #fff59d;
     border-radius: 0.5rem;
+}
+
+/* TABLA SELECCIONADA */
+.tabla--activo:hover {
+    background-color: #fff59d;
+    color: #8c9eff;
+    transition-duration: 2s;
 }
 
 /* TITULO SECCIÓN */
